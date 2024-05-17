@@ -11,13 +11,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection  = "Hotel")
+@Document("Hotel")
 public class Hotels {
-	
+
 	@Id
 	private ObjectId id;
 	private String hotelName;
 	private String roomType;
 	private String price;
-
 }

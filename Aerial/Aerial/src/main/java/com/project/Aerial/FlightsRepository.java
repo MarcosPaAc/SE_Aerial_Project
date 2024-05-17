@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FlightsRepository extends MongoRepository<Flights, ObjectId>{
-
+	
 }
